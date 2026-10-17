@@ -18,6 +18,7 @@
       --accent-glow: rgba(99, 102, 241, 0.25);
       --gif-badge: #10b981;
       --icon-display-size: 48px;
+      --control-height: 40px;
     }
 
     * {
@@ -95,6 +96,7 @@
 
     .search-input {
       width: 100%;
+      height: var(--control-height);
       background: rgba(10, 12, 18, 0.85);
       border: 1px solid var(--border-subtle);
       color: var(--text-primary);
@@ -131,6 +133,7 @@
 
     .pill-group {
       display: flex;
+      height: var(--control-height);
       background: rgba(10, 12, 18, 0.85);
       border: 1px solid var(--border-subtle);
       border-radius: 10px;
